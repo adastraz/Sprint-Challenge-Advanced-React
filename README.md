@@ -23,9 +23,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+I would only select a class component if I was asked to by my employer. Otherwise I feel that functional components are better in every way.
+
 - [ ] Name three lifecycle methods and their purposes.
+
+ComponentDidMount - this method checks to see if your inital component renders, and if it does, this method will run. Normally you put data access like an axios call here
+
+ComponentDidUpdate - After props or a state change occurs, this event will fire. You can setState here as long as you have something like an if statement preventing an infinite loop.
+
+ComponentWillUnmount - This method is called just before the component is destroyed or 'unmounted'. Removing event listeners is common for this spot so you don't have listeners that were supposed to just be on the previous page.
+
 - [ ] What is the purpose of a custom hook?
+
+TO BE AWESOME! You can call these guys over and over (reuseable!)
+
 - [ ] Why is it important to test our apps?
+
+So we as the developers don't have to. Tests also catch things that the developer may not have preventing bugs. 
 
 ## Project Set Up
 
