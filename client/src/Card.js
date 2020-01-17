@@ -15,8 +15,8 @@ border-radius:20px;
 const Card = props => {
     return(
         <Pretty>
-            <p>{props.item.name}</p>
-            <p>{props.item.country}</p>
+            <p>Name : {props.item.name}</p>
+            <p>Country : {props.item.country}</p>
         </Pretty>
     )
     

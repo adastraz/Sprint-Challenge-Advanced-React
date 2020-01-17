@@ -42,8 +42,10 @@ class App extends Component{
     return (
       <>
         <DarkMode /> 
-        <div className='.dark-mode #letssee'>
-          
+        <div 
+        data-testid='bigone'
+        className='.dark-mode #letssee'
+        >
           {this.state.players.map(item => (
             <Card 
             key={item.id}
